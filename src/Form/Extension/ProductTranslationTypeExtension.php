@@ -18,9 +18,6 @@ final class ProductTranslationTypeExtension extends AbstractTypeExtension
         ]);
     }
 
-    /**
-     * {@inheritdoc}
-     */
     public function getExtendedType(): string
     {
         return ProductTranslationType::class;
